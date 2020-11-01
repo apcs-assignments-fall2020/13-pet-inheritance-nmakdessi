@@ -4,8 +4,8 @@ public class Dog extends Pet {
 
 
     // Constructors
-    public Dog(String name, int age, String breed);{
-        super(a, b);
+    public Dog(String name, int age, String breed) {
+        super(name, age);
         this.breed = breed;
     }
 
@@ -34,7 +34,7 @@ public class Dog extends Pet {
     // Setter
     public void setBreed(String breed) {
         if (breed.trim().length() != 0) {
-            this.breed = breed.trim;
+            this.breed = breed;
         }
     }
 
